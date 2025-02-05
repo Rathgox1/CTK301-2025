@@ -1,5 +1,5 @@
 body{
-    color: aliceblue;
+    color: rgb(44, 110, 44);
 }
 h1 {
     color: aquamarine;
@@ -14,7 +14,7 @@ h3 {
     background-color: black;
 }
 p {
-    color: brown;
+    color: rgb(240, 204, 204);
     background-color: black;
 }
 a {
@@ -26,10 +26,17 @@ a:visited {
 a:hover {
     color: yellow;
 }
+/* Changes the background between the h2 and p on page 1 to be turquoise*/
 .TotallyUnnecessaryDiv {
     background-color: turquoise;
 }
 /* I assure you the color is different, probably */
 #beans {
     color: #b8001f;
+}
+header {
+    font-size: large
+}
+.span {
+    color: blueviolet;
 }
