@@ -27,7 +27,7 @@ a:visited {
 a:hover {
     color: yellow;
 }
-/* Changes the background between the h2 and p on page 1 to be turquoise*/
+/* Changes the background between two points to be turquoise*/
 .TotallyUnnecessaryDiv {
     background-color: turquoise;
 }
