@@ -1,0 +1,36 @@
+nav li a:hover {
+    color: blue;
+}
+
+.unbold {
+    font-weight: unset;
+}
+.whitebackground {
+    background-color: white;
+}
+.backgroundImage {
+    background-image: url("a5bg.png");
+}
+.unsetUnderline {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover.hoverLink {
+    color: red;
+    text-decoration: underline;
+}
+.topLinks {
+    color: white;
+    background: blue;
+    text-decoration: none;
+}
+#fruit {
+    border: white;
+    background: blue;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
