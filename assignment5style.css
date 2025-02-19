@@ -31,7 +31,7 @@ body p {
     padding-bottom: 35px;    
 }
 .unsetUnderline {
-    color: blue;
+    color: darkblue;
     text-decoration: none;
     font-weight: bold;
 }
@@ -41,7 +41,7 @@ body a:hover {
 }
 #fruit {
     border: 2px solid white;
-    background: blue;
+    background: darkblue;
     text-align: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -58,7 +58,7 @@ nav ul {
 nav li {
     width: 200px;
     margin: 10px;
-    background-color: blue;
+    background-color: darkblue;
     display: inline-block;
 }
 nav a {
@@ -68,7 +68,7 @@ nav a {
     display: block;
     margin: 0%;
 }
-/* It kind of looks like the button lights up in the picture but I think that's just my eyes getting to me from the color combination */
+/* It kind of looks like the button lights up in the picture but I think that's just my eyes getting to me from the color combination. I added it in just to be safe */
 nav a:hover {
     color: white;
     background-color: blue;
