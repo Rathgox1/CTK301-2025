@@ -1,0 +1,101 @@
+.unbold {
+    font-weight: unset;
+}
+.whitebackground {
+    background-color: white;
+}
+h1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: black;
+    color: white;
+    font-style: normal;
+}
+h2 {
+    border-bottom: 4px solid black;
+    padding-left: 5px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.backgroundImage {
+    background-image: url("a5bg.png");
+}
+body {
+    border: solid black;
+    background-color: white;
+    margin: 5%;
+    margin-top: 2%;
+}
+body p {
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 2%;
+}
+#extraPadding {
+    padding-bottom: 35px;    
+}
+.unsetUnderline {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+body a:hover {
+    color: red;
+    text-decoration: underline;
+}
+#fruit {
+    border: 2px solid black;
+    background: red;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2%;
+    margin: 0%; /* Actually not redundant code, don't you just love brower auto settings? */
+}
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+nav li {
+    width: 200px;
+    margin: 10px;
+    background-color: darkblue;
+    display: inline-block;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    margin: 0%;
+}
+/* It kind of looks like the button lights up in the picture but I think that's just my eyes getting to me from the color combination. I added it in just to be safe */
+nav a:hover {
+    color: white;
+    background-color: blue;
+    display: block;
+    text-decoration: none;
+}
+
+p a {
+    color: red;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: blue;
+}
+
+/* I'm going to assume that "these paragraphs" meant everything not explicitly stated to be another font*/
+.georgiaTheCountry {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
