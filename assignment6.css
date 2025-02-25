@@ -1,109 +1,84 @@
-.unbold {
-    font-weight: unset;
-}
-.whitebackground {
-    background-color: white;
-}
-h1 {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    margin-left: 1%;
-    margin-right: 1%;
-    background-color: black;
-    color: white;
-    font-weight: unset;
-    grid-column: span 12;
-    font-family: Helvetica, sans-serif;
-}
-h2 {
-    border-bottom: 4px solid black;
-    padding-left: 5px;
-    padding-top: 40px;
-    padding-bottom: 25px;
-    margin-left: 2%;
-    margin-right: 2%;
-    grid-column: span 12;
-    font-family: Helvetica, sans-serif;
-}
-.backgroundImage {
-    background-image: url("a5bg.png");
-}
 body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
     border: solid black;
-    background-color: white;
-    margin: 5%;
-    margin-top: 2%;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 24px;
 }
-body p {
-    text-align: justify;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin: 2%;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 24px;
-}
-#extraPadding {
-    padding-bottom: 35px;    
-}
-.unsetUnderline {
-    color: darkblue;
-    text-decoration: none;
-    font-weight: bold;
-}
-body a:hover {
-    color: red;
-    text-decoration: underline;
-}
-#fruit {
-    border: 2px solid black;
-    background: red;
-    text-align: center;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    padding: 2%;
-    margin: 0%;
+  
+header {
+    background-color: black;
     grid-column: span 12;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    padding: 1%;
+    margin: 1%;
 }
+  
 nav {
     grid-column: span 3;
+    padding-bottom: 1%;
 }
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+}
+
 nav li a {
     display: block;
     background-color: red;
+    border: 1px solid black;
     padding: 1em;
+    margin: 25px;
+    margin-top: 0;
     color: white;
     text-decoration: none;
 }
-nav ul {
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
+
+nav li a:hover {
+    background-color: rgb(95, 0, 0);
 }
-/* It kind of looks like the button lights up in the picture but I think that's just my eyes getting to me from the color combination. I added it in just to be safe */
-nav a:hover {
-    color: white;
-    background-color: rgb(100, 3, 3);
-    display: block;
-    text-decoration: none;
+  
+main {
+    grid-column: span 6;
+}
+  
+main img {
+    float: left;
+    margin-right: 24px;
 }
 
 p a {
     color: red;
     text-decoration: none;
+    font-weight: bold;
 }
 
 p a:hover {
     color: blue;
+    text-decoration: underline;
+}
+aside {
+    grid-column: span 3;
+    background-color: blue;
+    color: white;
+    padding: 24px;
+    padding-top: 0%;
+}
+  
+footer {
+    background-color: green;
+    color: white;
+    grid-column: span 12;
+    padding-left: 24px;
 }
 
-/* I'm going to assume that "these paragraphs" meant everything not explicitly stated to be another font*/
 .georgiaTheCountry {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: justify;
 }
