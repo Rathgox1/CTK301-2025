@@ -1,0 +1,35 @@
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-underline-position: below;
+}
+.whiteText {
+    color: white;
+}
+.BlueBack {
+    background-color: rgb(145, 145, 255);
+}
+#BLUE {
+    color: blue;
+}
+#DOCTOR {
+    color: orange;
+}
+.YellowBackground {
+    background-color: yellow
+}
+#GreenBackground {
+    background-color: green;
+}
+#LightGreenBackground {
+    background-color: rgb(154, 245, 154);
+}
+.RedText {
+    color: red;
+}
+.YellowText {
+    color: yellow;
+}

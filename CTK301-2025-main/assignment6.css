@@ -1,0 +1,104 @@
+html {
+    background-image: url("a62.png");
+}
+
+.georgiaTheCountry {
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: justify;
+} /*It's not a very powerful bold or justifym but it's there*/
+
+body {    
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border: solid black;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    border-bottom: solid black;
+    padding-bottom: 2%;
+    display: grid;
+    grid-column: span 12;
+    font-family: Helvetica, sans-serif;
+} /* Doesn't say anything about changing the bold on the h2 so I'll assume it stays as issued */
+
+header {
+    background-color: black;
+    grid-column: span 12;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    padding: 1%;
+    margin: 1%;
+}
+
+header h1 {
+    font-weight: unset;
+}
+
+nav {
+    grid-column: span 3;
+    padding-bottom: 1%;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    background-color: red;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 25px;
+    margin-top: 0;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(95, 0, 0);
+}
+  
+main {
+    grid-column: span 9;
+    background-color: white;
+    padding: 2%;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+}
+
+main img {
+    float: left;
+    margin-right: 24px;
+    border: solid black;
+    padding: 10px;
+}
+
+p a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer {    
+    text-align: center;
+    background-color: red;
+    color: white;
+    grid-column: span 12;
+    padding-left: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    border-top: solid black;
+}

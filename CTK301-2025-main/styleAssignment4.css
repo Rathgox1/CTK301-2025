@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("graybackground.jpg");
+    /*background-image: url("giphy.gif"); Initially I wanted to do the overused green numbers on a black background, but it didn't play nice with the rest of the site, unfortunate*/
+}
+.centerMe {
+    text-align: center;
+}
+/* the page already looks justified so it's hard to tell if this does anything*/
+.justification {
+    text-align:justify;
+}
+h1, h2, h3, h4 {
+    font-weight: unset;
+    color: orange;
+    font-style: italic;
+}
+img {
+    border: 15px solid black;
+    padding: 5px;
+    background: yellow;
+}
