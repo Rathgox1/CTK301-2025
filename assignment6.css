@@ -16,7 +16,8 @@ h2 {
     padding-bottom: 2%;
     display: grid;
     grid-column: span 12;
-}
+    font-family: Helvetica, sans-serif;
+} /* Doesn't say anything about changing the bold on the h2 so I'll assume it stays as issued */
 header {
     background-color: black;
     grid-column: span 12;
@@ -25,7 +26,11 @@ header {
     padding: 1%;
     margin: 1%;
 }
-  
+
+header h1 {
+    font-weight: unset;
+}
+
 nav {
     grid-column: span 3;
     padding-bottom: 1%;
