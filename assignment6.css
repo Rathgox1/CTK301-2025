@@ -72,8 +72,7 @@ main {
     padding-left: 0%;
     padding-top: 0%;
     padding-bottom: 1%;
-    margin-right: 0%;
-}
+} /* For some reason, despite the local files and the online files being the exact same, the local looks exactly like the provided example while the online version is slightly larger than neccessary*/
 
 main img {
     float: left;
