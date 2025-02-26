@@ -1,7 +1,6 @@
 html {
-    background-image: url(a62.png);
+    background-image: url("a62.png");
 }
-
 
 body {    
     background: #fff;
@@ -36,9 +35,6 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-  
-nav li {
 }
 
 nav li a {
