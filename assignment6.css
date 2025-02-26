@@ -10,6 +10,8 @@ body {
 h2 {
     border-bottom: solid black;
     padding-bottom: 2%;
+    display: grid;
+    grid-column: span 12;
 }
 header {
     background-color: black;
