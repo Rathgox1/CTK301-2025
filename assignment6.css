@@ -1,5 +1,10 @@
+html {
+    background-image: url(a62.png);
+}
+
+
 body {    
-    background: #fff, url("a62.png");
+    background: #fff;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 24px;
