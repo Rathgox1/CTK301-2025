@@ -1,30 +1,30 @@
-body{
-    background-image: url('a62.png')
-  }
+body  {
+  background-image: url('a62.png');
+  grid-template-columns: repeat (12, 1fr);
+}
 
-  #wrapper {
-    margin: 1em auto;
-    width: 960px;
-    border: 3px black solid;
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: repeat (12, 1fr);
+#wrapper {
+  margin: 1em auto;
+  width: 960px;
+  border: 3px black solid;
+  background-color: #ffffff;
+  display: grid;
 }
 
 h1 {
-    font-family: sans-serif;
-    font-weight: normal;
-    background-color: #008fe8;
-    padding: 10px;
-    border-bottom: 3px solid black; 
-    margin: 0px;
-    grid-column: span 12;
+  font-family: sans-serif;
+  font-weight: normal;
+  background-color: #008fe8;
+  padding: 15px;
+  border-bottom: 3px solid black; 
+  margin: 0px;
+  grid-column: span 12;
 }
 
 nav{
   grid-column: span 12;
   background-color: #ffffff;
-  padding: 10px;
+  padding: 2%;
 }
 
 nav ul {
@@ -41,7 +41,7 @@ nav li a {
   border: 3px solid black;
   padding: 10px;
   margin: 10px;
-  width: 150px;
+  width: 250px;
   background-color: #007912;
   color: #ffffff;
   text-decoration: none;
@@ -78,8 +78,8 @@ nav li a {
 
 #sidebar{
   grid-column: span 3;
-  background-color: #008fe8;
-  padding: 10px;
-  display: inline-block;
-  color: white
+  background-color: blue;
+  color: white;
+  padding: 60px;
+  padding-top: 0%;
 }
