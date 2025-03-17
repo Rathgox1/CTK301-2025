@@ -4,9 +4,7 @@ html {
 
 .georgiaTheCountry {
     font-family: Georgia;
-    font-weight: bold;
-    text-align: justify;
-} /*It's not a very powerful bold or justifym but it's there*/
+} /*It's not a very powerful bold or justify but it's there*/
 
 body {    
     background: #fff;
@@ -17,6 +15,10 @@ body {
     margin-top: 1%;
     margin-bottom: 2%;
 }
+
+.redlink {
+    color: red;
+} /* I don't wanna code anymore. I just want to crawl into a ball and sleep */
 
 h2 {
     border-bottom: solid black;
