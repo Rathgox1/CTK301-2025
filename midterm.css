@@ -20,6 +20,9 @@ body {
     color: red;
 } /* I don't wanna code anymore. I just want to crawl into a ball and sleep */
 
+.left {
+    justify-content: left;
+}
 h2 {
     border-bottom: solid black;
     padding-bottom: 2%;
@@ -42,8 +45,10 @@ header h1 {
 }
 
 nav {
-    grid-column: span 3;
+    display: inline-block;
+    grid-column: span 12;
     padding-bottom: 1%;
+    width: auto;
 }
   
 nav ul {
@@ -53,7 +58,7 @@ nav ul {
 }
 
 nav li a {
-    display: block;
+    display: inline-block;
     background-color: red;
     border: 1px solid black;
     padding: 1em;
