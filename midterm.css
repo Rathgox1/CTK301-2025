@@ -1,3 +1,5 @@
+/* This is my great shame. I was unable to properly complete this. Fuck this page */
+
 html {
     background-image: url("a62.png");
 }
@@ -6,11 +8,20 @@ html {
     font-family: Georgia;
 } /*It's not a very powerful bold or justify but it's there*/
 
+button {
+    background-color: rgb(7, 128, 168);
+    border: 1px solid darkblue;
+    color: white;
+    padding: 25px 25%;
+    cursor: pointer;
+    float: left;
+}
+
 body {    
     background: #fff;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    border: solid black;
+    border: solid blue;
     margin: 10%;
     margin-top: 1%;
     margin-bottom: 2%;
