@@ -6,8 +6,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <title>Main Page Mockup</title>
-    <link href="Apr_7th.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+    <link href="Apr_7th.css" rel="stylesheet" type="text/css"> <!--Forgot to put this last so it got overwritten, rookie mistake-->
 </head>
 <div>
     <img id="wide" src="spicy2.png">
@@ -19,21 +23,51 @@
     <a href="#" class="button">Writings</a>
 </header>
 <body>
+    <div id="myCarousel">
     <a href="MeldConcept.jpg" data-fancybox="gallery">
-    <img src="MeldConcept.jpg"/>
+        <img src="MeldConcept.jpg"/>
     </a>
-    <img src="Nuclear_Kittens.jpg"/>
-    <img src="TTF.jpg"/>                
-    <img src="honey.png"/>
-    <img src="Pancreas.png"/>
-    <img src="Screenshot (15).png"/>
-    <img src="yield.png"/>
-    <img src="hot.png"/>
-    <img src="accident.png"/>
-    <img src="plants.png" alt="Frog" />
-    <img src="malpractice.png"/>
-    <img src="spicy.png"/>
+    <a href="Nuclear_Kittens.jpg" data-fancybox="gallery">
+        <img src="Nuclear_Kittens.jpg"/>
+    </a>
+    <a href="TTF.jpg" data-fancybox="gallery">
+        <img src="TTF.jpg"/>
+    </a>  
+    <a href="honey.png" data-fancybox="gallery">
+        <img src="honey.png"/>
+    </a>
+    <a href="Pancreas.png" data-fancybox="gallery">
+        <img src="Pancreas.png"/>
+    </a>
+    <a href="Screenshot (15).png" data-fancybox="gallery">
+        <img src="Screenshot (15).png"/>
+    </a>
+    <a href="yield.png" data-fancybox="gallery">
+        <img src="yield.png"/>
+    </a>
+    <a href="hot.png" data-fancybox="gallery">
+        <img src="hot.png"/>
+    </a>
+        <a href="accident.png" data-fancybox="gallery">
+        <img src="accident.png"/>
+    </a>
+    <a href="plants.png" data-fancybox="gallery">
+        <img src="plants.png" alt="Frog"/>
+    </a>
+    <a href="malpractice.png" data-fancybox="gallery">
+        <img src="malpractice.png"/>
+    </a>
+    <a href="spicy.png" data-fancybox="gallery">
+        <img src="spicy.png"/>
+    </a>
+    </div>
     <iframe width="1200" height="700" src="https://www.youtube.com/embed/O1DLGUoHp-c?si=pxi4Wp8cTRxzwSgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <script> /* You can put both scripts together if the site layout really calls for it, such as having many photos then one main center photo carousel*/
+        const container = document.getElementById("myCarousel");
+        const options = { infinite: false };
+        new Carousel(container, options);
+        Fancybox.bind("[data-fancybox]", {});
+    </script>
 </body>
 <footer>
     <h1>
