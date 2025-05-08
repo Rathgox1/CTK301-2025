@@ -1,5 +1,13 @@
 /* Make a note that brave is a dick and doesn't like to properly fetch updates to the site on time */
 
+#work {
+    background-color: gray;
+}
+
+html {
+    background-color: gray;
+}
+
 #wrapper {
     margin: 1em auto;
     width: 960px;
@@ -48,7 +56,7 @@ header {
 }
 
 .mainButton {
-    background-color: rgb(136, 4, 4);
+    background-color: rgb(100, 0, 0);
     color: white;
     padding: 15px;
     padding-left: 100px;
